@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Header from './Components/Header/Header'
 import OurServices from './Components/OurServices/OurServices'
 import Tips from './Components/Tips/Tips'
+import Reviews from './Components/Reviews/Reviews'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Header />
     <OurServices />
     <Tips />
+    <Reviews />
     </>
     
   )

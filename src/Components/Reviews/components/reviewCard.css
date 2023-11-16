@@ -1,0 +1,31 @@
+.reviewCard__Container{
+    width: 100%;
+    height: 100%;
+    color: #F8FBFB;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #F8FBFB35;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.reviewCard__Img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #F8FBFB;
+    border-width: 1px;
+    width: 80%;
+    height: auto;
+}
+.reviewCard__Title{
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+.reviewCard__Text{
+    font-size: 0.7rem;
+    text-align: center;
+}
