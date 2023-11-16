@@ -1,0 +1,55 @@
+.tipsCard__Container{
+    background-color: #6A9CA1;
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.tipsCard__Img{
+    width: 100%;
+    height: auto;
+}
+.tipsCard__Data-Container{
+    background-color: #7c583B;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-color: #F8FBFB;
+    border-top-style: solid;
+    padding-top: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.tipsCard__Title-Container{    
+    width: 50%;
+    color: #F8FBFB; 
+    text-align: center;        
+}
+.tipsCard__Title{
+    font-size: 1rem;
+}
+.tipsCard__Text-Container{
+    color: #F8FBFB;
+    font-size: 0.7rem;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .tipsCard__Container{            
+        width: 100%;     
+        height: auto;   
+        
+    }   
+    .tipsCard__Title{
+        font-size: 1rem;
+    }
+}

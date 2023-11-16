@@ -1,0 +1,22 @@
+.tips__Main-Container{
+    background-image: url(../../assets/background/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.tips__Subtitle-Container{
+    color: #7C583B;
+}
+.tips__Text-Container{
+    color: #7C583B;
+}
+.tips__Cards-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.rowHandle{
+    justify-content: center;
+}

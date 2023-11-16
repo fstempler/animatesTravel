@@ -1,0 +1,19 @@
+.animalCard__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.animalCard__Img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F8FBFB;
+}
+.animalCard__Title{
+    color: #F8FBFB;
+    font-family: 'Lilita One', sans-serif;
+}
