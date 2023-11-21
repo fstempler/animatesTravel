@@ -1,0 +1,35 @@
+.about__Main-Container{
+    background-image: url(../../assets/background/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.about__Right-Column{
+    /* background-image: url(../../assets/about/dogCat.jpg);   */
+}
+.about__Right-Image{       
+    border-radius: 5px;
+}
+
+.staff__Title{
+    font-family: 'Lilita One', sans-serif;
+    color: #7C583B;
+}
+
+.staff__Cards-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .about__Right-Column{
+        display: none;
+    }
+    .staff__Cards-Container{
+        flex-direction: column;
+    }
+}

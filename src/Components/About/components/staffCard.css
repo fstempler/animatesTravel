@@ -1,0 +1,22 @@
+.staffCard__Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+.staffCard__Image{    
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+.staffCard__Text-Container{
+    width: 100px;
+}
+.staffCard__Text{
+    text-align: center;
+    color: #7C583B;
+    font-size: 0.8rem;
+}
