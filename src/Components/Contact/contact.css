@@ -1,0 +1,47 @@
+.contact__Main-Container{
+    background-image: url(../../assets/background/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 100%;
+    height: auto;
+    /* padding: 50px;     */
+}
+.contact__RightColumn{
+ background-image: url(../../assets/contact/doggy.jpg); 
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+ color: #F8FBFB;
+ text-align: center; 
+ padding: 20px;
+}
+.contact__Form-Container{
+    padding: 50px;
+}
+.contact__Form-Title{
+    font-weight: bold;
+}
+.contact__Form-Subtitle{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.contact__Form-Services{
+    font-size: 0.8rem;
+}
+.contact__Form-Btn{
+    background-color: #7C583B;
+    color: #F8FBFB;
+    width: 100%;
+}
+input{
+    margin: 5px 0;
+}
+input::placeholder {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .contact__RightColumn{
+        background-image: none;        
+    }
+}
