@@ -1,5 +1,5 @@
 import Title from '../Title/Title'
-import ReviewCard from './components/reviewCard'
+import ReviewCard from './components/ReviewCard'
 
 import profile1 from '../../assets/reviews/profile1.jpg';
 import profile2 from '../../assets/reviews/profile2.jpg';
