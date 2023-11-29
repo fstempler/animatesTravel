@@ -8,7 +8,7 @@ import ferret from '../../assets/ourServices/ferret.jpg';
 
 const OurServices = () => {
     return (
-        <div className='ourServices__MainContainer'>
+        <div className='ourServices__MainContainer' id='services'>
             <div className='ourServices__Title-Container'>
                 <Title text={"Servicios"} color={"#F8FBFB"} />
             </div>

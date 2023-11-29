@@ -3,9 +3,9 @@ import Title from '../Title/Title';
 
 const Contact = () => {
     return (
-        <div className='contact__Main-Container'>
+        <div className='contact__Main-Container' id='contact'>
             <div className='container'>
-                <div className='row flex-column-reverse flex-md-row'>
+                <div className='row flex-column-reverse flex-xl-row'>
                     <div className='col-lg-7 col-sm-12 contact__Form-Container'>
                     <form>
                         <div className="mb-3">                        

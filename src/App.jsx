@@ -5,20 +5,26 @@ import Tips from './Components/Tips/Tips'
 import Reviews from './Components/Reviews/Reviews'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 
 function App() {
   
 
   return (
+
     <>
-    <Navbar />
-    <Header />
-    <OurServices />
-    <Tips />
-    <Reviews />
-    <About />
-    <Contact />
+    <BrowserRouter>
+      <Navbar />
+      <Header />
+      <OurServices />
+      <Tips />
+      <Reviews />
+      <About />
+      <Contact />
+      <Footer />
+    </BrowserRouter>
     </>
     
   )

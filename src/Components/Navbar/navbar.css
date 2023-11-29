@@ -8,8 +8,12 @@
     background-color: #7C583B;
 }
 .navbar__Logo{
-    width: 5%;
-    height: auto;
+    width: 10%;
+    height: auto;    
+}
+
+.navbar__Logo-Container{
+    width: 50%;
 }
 .nav-link{
     color: #F8FBFB;
@@ -17,4 +21,11 @@
 
 .navbar__Toggle-Text{
     font-size: 0.8rem;
+}
+
+@media (max-width: 576px) {
+    .navbar__Logo{
+        width: 30%;
+        height: auto;    
+    }
 }

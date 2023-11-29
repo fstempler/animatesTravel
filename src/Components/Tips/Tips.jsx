@@ -7,7 +7,7 @@ import TipsCard from './components/TipsCard'
 
 const Tips = () => {
     return (
-        <div className='tips__Main-Container'>
+        <div className='tips__Main-Container' id='tips'>
             <Title text={"Tips"} color={"#AB7A63"} />
 
             <div className='tips__Subtitle-Container'>

@@ -1,0 +1,77 @@
+.footer__Main-Container{
+    background-color: #7C583B;
+    padding: 10px;    
+}
+.footer__Logo-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;    
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.footer__Logo{
+    width: 50%;
+    height: auto;    
+}
+.footer__Map{
+    border-radius: 5px;
+}
+.footer__Contact-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.footer__Contact-Info{
+    margin: 5px;
+}
+.bi{
+    margin-right: 5px;
+}
+.footer__Contact-SM{
+    text-align: center;
+}
+
+.footer__Address-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.footer__Address{
+    color: #F8FBFB;
+    font-size: 0.9rem;    
+    margin: 0;
+}
+.footer__Sitemap-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.footer__List{
+    list-style-type: none;
+    color: #F8FBFB;
+    font-size: 0.9rem;    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .footer__Logo{
+        width: 100%;
+        height: auto;            
+    }
+}

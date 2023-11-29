@@ -11,7 +11,7 @@ import './about.css'
 
 const About = () => {
     return (
-        <div className='about__Main-Container'>
+        <div className='about__Main-Container' id='about'>
             <div className='row'>
                 <div className='col-8'>                    
                     <Title text={"Nosotros"} color={"#7C583B"} />
