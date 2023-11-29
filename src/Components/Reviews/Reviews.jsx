@@ -1,9 +1,9 @@
 import Title from '../Title/Title'
 import ReviewCard from './components/ReviewCard'
 
-import profile1 from '../../assets/reviews/profile1.jpg';
-import profile2 from '../../assets/reviews/profile2.jpg';
-import profile3 from '../../assets/reviews/profile3.jpg';
+import profile1 from '../../assets/reviews/Profile1.jpg';
+import profile2 from '../../assets/reviews/Profile2.jpg';
+import profile3 from '../../assets/reviews/Profile3.jpg';
 
 import './reviews.css'
 
