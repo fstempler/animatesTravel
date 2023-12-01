@@ -7,24 +7,30 @@ import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter } from 'react-router-dom'
+import { Suspense } from 'react'
 import './App.css'
 
+
+
 function App() {
+  
   
 
   return (
 
     <>
-    <BrowserRouter>
-      <Navbar />
-      <Header />
-      <OurServices />
-      <Tips />
-      <Reviews />
-      <About />
-      <Contact />
-      <Footer />
-    </BrowserRouter>
+    <Suspense fallback="Loading translation...">
+      <BrowserRouter>
+        <Navbar />
+        <Header />
+        <OurServices />
+        <Tips />
+        <Reviews />
+        <About />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
+    </Suspense>
     </>
     
   )

@@ -1,7 +1,11 @@
 import './contact.css'
 import Title from '../Title/Title';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+
+    const { t, i18n } = useTranslation();
+
     return (
         <div className='contact__Main-Container' id='contact'>
             <div className='container'>
@@ -9,80 +13,80 @@ const Contact = () => {
                     <div className='col-lg-7 col-sm-12 contact__Form-Container'>
                     <form>
                         <div className="mb-3">                        
-                            <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">Cliente</label>
+                            <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">{t('cClient')}</label>
 
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Contacto'/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Ciudad de Origen'/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Ciudad de Destino'/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cContact')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cOrigin')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cDestiny')}/>                    
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email'/>                    
                             <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Tel'/>                    
                         </div>
                         {/* Pet's Data */}
                         <div className="mb-3">                        
-                            <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">Datos de la mascota</label>
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Nombre'/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Color'/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Especie'/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Raza'/> 
+                            <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">{t('cPetData')}</label>
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cPetName')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cColor')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cSpecies')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cBreed')}/> 
 
                             <div className="row">
                                 <div className="col">
-                                    <input type="number" className="form-control" placeholder="Peso" aria-label="weight" />
+                                    <input type="number" className="form-control" placeholder={t('cWeight')} aria-label="weight" />
                                     <span>Kg</span>
                                 </div>
                             <div className="col">
-                                    <input type="date" className="form-control" placeholder="Fecha de Nacimiento" aria-label="age" />
-                                    <span>Años</span>
+                                    <input type="date" className="form-control" aria-label="age" />
+                                    <span>{t('cBirth')}</span>
                                 </div>
                             </div>                   
 
                             <div className="row">
-                                <span className='contact__Form-Subtitle'>Medidas: </span>
+                                <span className='contact__Form-Subtitle'>{t('cMeasures')}</span>
                                 <div className="col">
-                                    <input type="number" className="form-control" placeholder="Largo" aria-label="length" />                                
+                                    <input type="number" className="form-control" placeholder={t('cLength')} aria-label="length" />                                
                                 </div>
                                 <div className="col">
-                                    <input type="number" className="form-control" placeholder="Ancho" aria-label="width" />                                
+                                    <input type="number" className="form-control" placeholder={t('cWidth')} aria-label="width" />                                
                                 </div>
                                 <div className="col">
-                                    <input type="number" className="form-control" placeholder="Alto" aria-label="height" />                                
+                                    <input type="number" className="form-control" placeholder={t('cHeight')} aria-label="height" />                                
                                 </div>
                                 <div className="col">
-                                    <input type="number" className="form-control" placeholder="Alto de Codo" aria-label="elbow" />                                
+                                    <input type="number" className="form-control" placeholder={t('cElbow')} aria-label="elbow" />                                
                                 </div>
                             </div>                   
 
                             <div className="row">
-                                <span className='contact__Form-Subtitle'>¿Requiere de los siguientes servicios?</span>
+                                <span className='contact__Form-Subtitle'>{t('cServices')}</span>
                                 <div className="col">
-                                    <label className="form-check-label contact__Form-Services" htmlFor="transporter">Transportadora: </label>
+                                    <label className="form-check-label contact__Form-Services" htmlFor="transporter">{t('cKennel')}</label>
                                     <input type="checkbox" className="form-check-input ms-1" id="transporter" />
                                     <br />
-                                    <label className="form-check-label contact__Form-Services" htmlFor="vaccines">Vacunas: </label>
+                                    <label className="form-check-label contact__Form-Services" htmlFor="vaccines">{t('cVaccines')}</label>
                                     <input type="checkbox" className="form-check-input ms-1" id="vaccines" />
                                     <br />
                                     <label className="form-check-label contact__Form-Services" htmlFor="microchip">Microchip: </label>
                                     <input type="checkbox" className="form-check-input ms-1" id="microchip" />
                                 </div>
                                 <div className="col">
-                                    <label className="form-check-label contact__Form-Services" htmlFor="pension">Pensionado: </label>
+                                    <label className="form-check-label contact__Form-Services" htmlFor="pension">{t('cBoarding')}</label>
                                     <input type="checkbox" className="form-check-input ms-1" id="pension" />
                                     <br />
-                                    <label className="form-check-label contact__Form-Services" htmlFor="pension">Otros: </label>
+                                    <label className="form-check-label contact__Form-Services" htmlFor="pension">{t('cOther')}</label>
                                     <input type="checkbox" className="form-check-input ms-1" id="others" />
                                 </div>
                             </div>                   
                         
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Comentarios:'></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder={t('cComments')}></textarea>
         
                         </div>
   
   
-                        <button type="submit" className="btn contact__Form-Btn">Enviar</button>
+                        <button type="submit" className="btn contact__Form-Btn">{t('cSendBtn')}</button>
                     </form>
                 </div>
                 <div className='col-lg-5 col-sm-12 contact__RightColumn'>
-                    <Title text={"Contacto"} />
+                    <Title text={t('cTitle')} />
                 </div>
             </div>
             </div>

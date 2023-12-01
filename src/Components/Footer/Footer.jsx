@@ -2,8 +2,12 @@
 import './footer.css';
 import logo from '../../assets/logo/logoRoundSM.png';
 import { HashLink as Link } from 'react-router-hash-link';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+
+    const {t, i18n} = useTranslation();
+
     return (
         <div className='footer__Main-Container'>
             <div className='container'>
@@ -64,16 +68,19 @@ const Footer = () => {
                     <div className="col footer__Sitemap-Container">
                         <ul className='footer__List'>
                         <li className="nav-item">
-                             <Link className="nav-link" aria-current="page" to="#services">SERVICIOS</Link>
+                             <Link className="nav-link" aria-current="page" to="#">{t('home')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#tips">TIPS</Link>
+                             <Link className="nav-link" aria-current="page" to="#services">{t('services')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#about">NOSOTROS</Link>
+                            <Link className="nav-link" aria-current="page" to="#tips">{t('tips')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#contact">CONTACTO</Link>
+                            <Link className="nav-link" aria-current="page" to="#about">{t('aboutUs')}</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="#contact">{t('contact')}</Link>
                         </li>
                         </ul>
                     </div>

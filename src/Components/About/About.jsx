@@ -6,25 +6,23 @@ import luciano from '../../assets/about/lucianoSampietro.jpg'
 import maminska from '../../assets/about/maminska.jpg'
 import veronica from '../../assets/about/veronicaPerez.jpg'
 import josefina from '../../assets/about/Josefina.jpg'
+import { useTranslation } from 'react-i18next'
+
 
 import './about.css'
 
 const About = () => {
+
+    const { t, i18n } = useTranslation();
+
     return (
         <div className='about__Main-Container' id='about'>
             <div className='row'>
                 <div className='col-lg-8 col-md-12'>                    
-                    <Title text={"Nosotros"} color={"#7C583B"} />
+                    <Title text={t("aTitle")} color={"#7C583B"} />
                     <div className='about__Text-Container'>
                         <p className='about__Text'>
-                            Animates Travel es una empresa dedicada al traslado y realocación internacional de
-                            mascotas, brindando desde el inicio de cada proceso un servicio de excelencia, para que
-                            cada persona sienta plena confianza y tranquilidad al momento de enviar sus mascotas
-                            a su próximo destino. Nuestros procesos no sólo son de exportación, sino también de
-                            importación o recepción de mascotas provenientes de diferentes lugares del mundo. En
-                            ambos tipos de procesos podemos contar con la colaboración de agentes IPATA,
-                            cumpliendo de esta manera, con todos los requisitos y estándares de las autoridades
-                            internacionales, nacionales y compañías aéreas, entre otros
+                            {t("aText")}
                         </p>                    
                     </div>
                     <div className='about__Staff-Container'>

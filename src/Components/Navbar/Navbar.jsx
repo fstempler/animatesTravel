@@ -1,8 +1,17 @@
 import './navbar.css';
 import Logo from '../../assets/logo/logoRoundSM.png'
 import { HashLink as Link } from 'react-router-hash-link';
+import { useTranslation } from 'react-i18next';
+
 
 const Navbar = () => {
+
+    const { t, i18n } = useTranslation(["language"]);
+    const changeLanguage = () => {
+        const newLanguage = i18n.language === 'es' ? 'en' : 'es';
+        i18n.changeLanguage(newLanguage)
+    };
+
     return (
         <nav className="navbar navbar-expand-lg navbar__Container">
             <div className="container-fluid">
@@ -13,20 +22,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li className="nav-item">
-                             <Link className="nav-link" aria-current="page" to="#services">SERVICIOS</Link>
+                             <Link className="nav-link" aria-current="page" to="#services">{t('services')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#tips">TIPS</Link>
+                            <Link className="nav-link" aria-current="page" to="#tips">{t('tips')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#about">NOSOTROS</Link>
+                            <Link className="nav-link" aria-current="page" to="#about">{t('aboutUs')}</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="#contact">CONTACTO</Link>
+                            <Link className="nav-link" aria-current="page" to="#contact">{t('contact')}</Link>
                         </li>        
                         <li className="nav-item">
                             <div className='navbar__Toggle-Container'>
-                                <a className="nav-link" aria-current="page" href="#"><i className="bi bi-toggle-off"></i><span className='navbar__Toggle-Text'>EN</span></a>                            
+                                <button className="nav-link active" onClick={changeLanguage}>
+                                    <i className={`bi bi-toggle-${i18n.language === 'es' ? 'on' : 'off'} link__Style`}></i>
+                                    <span className='navbar__Toggle-Text'>{t('langEnBtn')}</span></button>                            
                             </div>
                             
                         </li>
