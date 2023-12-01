@@ -13,7 +13,7 @@ const About = () => {
     return (
         <div className='about__Main-Container' id='about'>
             <div className='row'>
-                <div className='col-8'>                    
+                <div className='col-lg-8 col-md-12'>                    
                     <Title text={"Nosotros"} color={"#7C583B"} />
                     <div className='about__Text-Container'>
                         <p className='about__Text'>
@@ -35,22 +35,22 @@ const About = () => {
                             <StaffCard imageUrl={daniel} 
                             name={"Daniel Otano"} 
                             title={"Socio Fundador"}/>
+                            <StaffCard imageUrl={veronica} 
+                            name={"Verónica Perez"} 
+                            title={"Socia / Business Department"}/>
                             <StaffCard imageUrl={luciano} 
                             name={"Luciano Sampietro"} 
                             title={"Médico veterinario M.P. Pcia. Bs.As. Nro. 13518 - M.N. Nro. 8312"}/>
                             <StaffCard imageUrl={maminska} 
                             name={"Marie Eliane Maminska"} 
                             title={"Médica veterinaria - Oncóloga - M.P. Pcia. Bs.As. Nro. 14105 - M.N. Nro. 7544"}/>
-                            <StaffCard imageUrl={veronica} 
-                            name={"Verónica Perez"} 
-                            title={"Socia / Business Department"}/>
                             <StaffCard imageUrl={josefina} 
                             name={"Josefina"} 
                             title={"CEO Animates Travel"}/>
                         </div>
                     </div>
                 </div>
-                <div className='col-4 about__Right-Column'>
+                <div className='col-lg-4 col-md-0 about__Right-Column'>
                     <img src={dogCat} className='about__Right-Image img-fluid'/>
                 </div>
             </div>

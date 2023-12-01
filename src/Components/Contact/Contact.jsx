@@ -17,9 +17,11 @@ const Contact = () => {
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email'/>                    
                             <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Tel'/>                    
                         </div>
+                        {/* Pet's Data */}
                         <div className="mb-3">                        
                             <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">Datos de la mascota</label>
-
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Nombre'/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Color'/>                    
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Especie'/>                    
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Raza'/> 
 
@@ -29,7 +31,7 @@ const Contact = () => {
                                     <span>Kg</span>
                                 </div>
                             <div className="col">
-                                    <input type="number" className="form-control" placeholder="Edad" aria-label="age" />
+                                    <input type="date" className="form-control" placeholder="Fecha de Nacimiento" aria-label="age" />
                                     <span>Años</span>
                                 </div>
                             </div>                   
@@ -44,6 +46,9 @@ const Contact = () => {
                                 </div>
                                 <div className="col">
                                     <input type="number" className="form-control" placeholder="Alto" aria-label="height" />                                
+                                </div>
+                                <div className="col">
+                                    <input type="number" className="form-control" placeholder="Alto de Codo" aria-label="elbow" />                                
                                 </div>
                             </div>                   
 

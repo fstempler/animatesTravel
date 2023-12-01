@@ -22,12 +22,6 @@ const Footer = () => {
                             <li>
                                 <p className='footer__Contact-Info'>
                                     <i className="bi bi-telephone-fill" />
-                                    +54 348 4465282
-                                </p>                               
-                            </li>
-                            <li>
-                            <p className='footer__Contact-Info'>
-                                    <i className="bi bi-telephone-fill" />
                                     +54 9 11 6377 0225
                                 </p>                               
                             </li>
@@ -35,6 +29,12 @@ const Footer = () => {
                             <p className='footer__Contact-Info'>
                                     <i className="bi bi-telephone-fill" />
                                     +54 9 11 4178 1043
+                                </p>                               
+                            </li>
+                            <li>
+                            <p className='footer__Contact-Info'>
+                                    <i className="bi bi-telephone-fill" />
+                                    +54 9 11 5319 5801
                                 </p>                               
                             </li>
                             <li className='footer__Contact-SM'>

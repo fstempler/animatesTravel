@@ -6,9 +6,7 @@
     height: auto;
     padding: 50px;
 }
-.about__Right-Column{
-    /* background-image: url(../../assets/about/dogCat.jpg);   */
-}
+
 .about__Right-Image{       
     border-radius: 5px;
 }
@@ -31,5 +29,11 @@
     }
     .staff__Cards-Container{
         flex-direction: column;
+    }
+    .about__Staff-Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
