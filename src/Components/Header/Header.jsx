@@ -16,10 +16,10 @@ const Header = () => {
                     <img src={carousel1} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={carousel2} className="d-block w-100" alt="..."/>
+                    <img src={carousel2} className="d-block w-100" alt="https://www.freepik.es/foto-gratis/perro-jack-russell-gafas-sol-amarillas-playa-ia-generativa_42742488.htm#page=3&query=pet%20holiday&position=1&from_view=search&track=ais&uuid=40eb03f8-b658-4af9-890b-40e14d7c894c Imagen de chandlervid85 en Freepik"/>
                 </div>
                 <div className="carousel-item">
-                    <img src={carousel3} className="d-block w-100" alt="..." />
+                    <img src={carousel3} className="d-block w-100" alt="https://www.freepik.es/foto-gratis/joven-sentado-su-perro-silla-parque_7120620.htm#page=3&query=pet%20holiday&position=16&from_view=search&track=ais&uuid=40eb03f8-b658-4af9-890b-40e14d7c894c Imagen de ArthurHidden en Freepik" />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

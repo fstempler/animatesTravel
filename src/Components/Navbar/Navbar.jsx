@@ -12,6 +12,11 @@ const Navbar = () => {
         i18n.changeLanguage(newLanguage)
     };
 
+    const changeLanguagePg = () => {
+        const newLanguage = i18n.language === 'es' ? 'pg' : 'es';
+        i18n.changeLanguage(newLanguage)
+    };
+
     return (
         <nav className="navbar navbar-expand-lg navbar__Container">
             <div className="container-fluid">
@@ -35,14 +40,19 @@ const Navbar = () => {
                         </li>        
                         <li className="nav-item">
                             <div className='navbar__Toggle-Container'>
-                                <button className="nav-link active" onClick={changeLanguage}>
+                                <button className="nav-link " onClick={changeLanguage}>
                                     <i className={`bi bi-toggle-${i18n.language === 'es' ? 'on' : 'off'} link__Style`}></i>
-                                    <span className='navbar__Toggle-Text'>{t('langEnBtn')}</span></button>                            
-                            </div>
-                            
+                                    <span className='navbar__Toggle-Text'>{t('langEnBtn')}</span>
+                                </button>                            
+                            </div>                            
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#"><i className="bi bi-toggle-off"></i><span className='navbar__Toggle-Text'>PG</span></a>
+                            <div className='navbar__Toggle-Container'>
+                                <button className="nav-link " onClick={changeLanguagePg}>
+                                    <i className={`bi bi-toggle-${i18n.language === 'es' ? 'on' : 'off'} link__Style`}></i>
+                                    <span className='navbar__Toggle-Text'>{t('langPgBtn')}</span>
+                                </button>                            
+                            </div>
                         </li>
                     </ul>
       
