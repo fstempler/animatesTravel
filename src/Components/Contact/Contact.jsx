@@ -1,9 +1,12 @@
 import './contact.css'
 import Title from '../Title/Title';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 
 const Contact = () => {
 
+    const location = useLocation();
+    const option = new URLSearchParams(location.search).get('option');
     const { t, i18n } = useTranslation();
 
     return (
@@ -25,8 +28,18 @@ const Contact = () => {
                         <div className="mb-3">                        
                             <label htmlFor="exampleInputPassword1" className="form-label contact__Form-Title">{t('cPetData')}</label>
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cPetName')}/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cColor')}/>                    
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cSpecies')}/>                    
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cColor')}/>                                                
+                            <select 
+                            className="form-select contact__Form-Species" 
+                            aria-label="Default select example" 
+                            defaultValue={option || ''}                            
+                            >
+                                <option value="" disabled >{t('cSpecies')}</option>
+                                <option value="dog">{t('sDog')}</option>
+                                <option value="cat">{t('sCat')}</option>
+                                <option value="ferret">{t('sFerret')}</option>
+                                <option value="exotic">{t('sExotic')}</option>
+                            </select>
                             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder={t('cBreed')}/> 
 
                             <div className="row">
@@ -78,7 +91,13 @@ const Contact = () => {
                             </div>                   
                         
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder={t('cComments')}></textarea>
-        
+                            <div className='row'>                                
+                                <div className="mb-3 mt-2">
+                                    <label htmlFor="formFile" className="form-label">{t('cAttachedImage')}</label>
+                                    <input className="form-control" type="file" id="formFile"/>
+                                </div>
+                            </div>
+                            
                         </div>
   
   

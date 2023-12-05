@@ -8,7 +8,7 @@
   "langPgBtn":"PG",
 
   "sTitle":"Servicios",
-  "sText":"Servicio médico veterinario: controles médicos, vacunación, colocación de microchip, desparasitación, etc",
+  "sText":"Cada traslado es único, y para ello contamos con todas las herramientas que nos permiten tener procesos y presupuestos a medida para cada necesidad en particular. Es por esto, que proporcionamos todos los servicios necesarios para el traslado de tu mascota, cumpliendo con todas las normas internacionales, ya sea para un proceso de importación, como de exportación.",
   "sContent1":"Servicio médico veterinario: controles médicos, vacunación, colocación de microchip, desparasitación, etc.",
   "sContent2":"Contratación de flete aéreo y terrestre. En el caso de los traslados aéreos, nuestro servicio incluye traslado desde el domicilio y/o pensionado hasta el aeropuerto, espera y despacho de la mascota.",
   "sContent3":"Servicio médico veterinario: controles médicos, vacunación, colocación de microchip, desparasitación, etc",
@@ -53,5 +53,7 @@
   "cBoarding":"Pensionado",
   "cOther":"Otros",
   "cComments":"Comentarios:",
+  "cAttachedImage":"Adjunte la foto de su mascota:",
+  "cUploadBtn":"Adjuntar",
   "cSendBtn":"Enviar"
 }

@@ -3,8 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;    
     width: 100%;
-    height: auto;
-    /* padding: 50px;     */
+    height: auto;    
 }
 .contact__RightColumn{
  background-image: url(../../assets/contact/doggy.jpg); 
@@ -28,10 +27,21 @@
 .contact__Form-Services{
     font-size: 0.8rem;
 }
+.contact__Form-AttachImg{
+    margin: 0;
+    padding: 0;
+}
+.contact__Form-UploadBtn{
+    margin: 0 15px;
+    padding: 0;
+}
 .contact__Form-Btn{
     background-color: #7C583B;
     color: #F8FBFB;
     width: 100%;
+}
+.contact__Form-Species{
+    font-size: 0.8rem;
 }
 input{
     margin: 5px 0;

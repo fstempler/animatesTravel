@@ -52,6 +52,8 @@
   "cBoarding":"Boarding",
   "cOther":"Other",
   "cComments":"Comments:",
+  "cAttachedImage":"Attach a photo of your pet:",
+  "cUploadBtn":"Attach",
   "cSendBtn":"Send"
 }
 

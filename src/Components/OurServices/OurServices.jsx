@@ -6,10 +6,16 @@ import cat from '../../assets/ourServices/cat.jpg';
 import exotic from '../../assets/ourServices/exotic.jpg';
 import ferret from '../../assets/ourServices/ferret.jpg';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const OurServices = () => {
-
+    const navigate = useNavigate();
     const { t, i18n } = useTranslation();
+
+    const handleCardClick = (option) => {
+        navigate('#contact')
+    }
+
 
     return (
         <div className='ourServices__MainContainer' id='services'>
@@ -55,16 +61,36 @@ const OurServices = () => {
             </div>
             <div className='ourServices__Cards-Container row'>
                 <div className='col-md-3'>
-                    <AnimalCard imageUrl={dog} title={t('sDog')}/>
+                    <AnimalCard 
+                    imageUrl={dog} 
+                    title={t('sDog')} 
+                    option="dog"
+                    onClick={() => handleCardClick('dog')}
+                    />
                 </div>
                 <div className='col-md-3'>
-                    <AnimalCard imageUrl={cat} title={t('sCat')}/>
+                    <AnimalCard 
+                    imageUrl={cat} 
+                    title={t('sCat')} 
+                    option="cat"
+                    onClick={() => handleCardClick('cat')}
+                    />
                 </div>
                 <div className='col-md-3'>
-                    <AnimalCard imageUrl={ferret} title={t('sFerret')}/>
+                    <AnimalCard 
+                    imageUrl={ferret} 
+                    title={t('sFerret')} 
+                    option="ferret"
+                    onClick={() => handleCardClick('ferret')}
+                    />
                 </div>
                 <div className='col-md-3'>
-                    <AnimalCard imageUrl={exotic} title={t('sExotic')}/>
+                    <AnimalCard 
+                    imageUrl={exotic} 
+                    title={t('sExotic')} 
+                    option="exotic"
+                    onClick={() => handleCardClick('exotic')}
+                    />
                 </div>
             </div>
         </div>
