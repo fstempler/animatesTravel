@@ -14,6 +14,9 @@
  text-align: center; 
  padding: 20px;
 }
+
+/* FORM HANDLES */
+
 .contact__Form-Container{
     padding: 50px;
 }
@@ -48,6 +51,17 @@ input{
 }
 input::placeholder {
     font-size: 0.8rem;
+}
+
+input.input-error,
+select.input-error {
+    border-color: #fc8181;
+    border-width: 2px;
+}
+
+.contact__Form-Error{
+    font-size: 1.8rem;
+    color: #fc8181; 
 }
 
 @media (max-width: 990px) {

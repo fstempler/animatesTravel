@@ -27,11 +27,16 @@
     "tCard2Text":"A + 1/2 B = Comprimento C x 2 = Largura D = Altura Tenha em conta que as raças de nariz achatado requerem um recipiente 10% maior.",
   
     "aTitle":"Sobre nós",
-    "aText":"Animates Travel é uma empresa dedicada ao transporte internacional de animais de estimação, oferecendo desde o início um serviço total e de excelência, para que cada pessoa se sinta confiada  e tranquila  ao deixar seus animais de estimação em nossas mãos até serem entregues no destino prefixado. Nossos processos não são apenas para exportação, senão também para importação ou recepção de animais  desde os diferentes lugares do mundo, e contamos para isso com a colaboração de agentes IPATA, cumprindo assim com todos os requisitos e normas de autoridades internacionais, companhías aéreas,  entre outros.",
+    "aText":"Animates Travel é uma empresa familiar dedicada ao transporte internacional de animais de estimação, oferecendo desde o início um serviço total e de excelência, para que cada pessoa se sinta confiada  e tranquila  ao deixar seus animais de estimação em nossas mãos até serem entregues no destino prefixado. Nossos processos não são apenas para exportação, senão também para importação ou recepção de animais  desde os diferentes lugares do mundo, e contamos para isso com a colaboração de agentes IPATA, cumprindo assim com todos os requisitos e normas de autoridades internacionais, companhías aéreas,  entre outros.",
+    "aDOposition": "Sócio Fundador",
+    "aVPposition": "Sócia / Departamento de Negócios",
+    "aMEMposition": "Médica Veterinária - Oncologista - M.P. Pcia. Bs.As. Nº 14105 - M.N. Nº 7544",
+    "aLSposition": "Médico Veterinário M.P. Pcia. Bs.As. Nº 13518 - M.N. Nº 8312",
   
     "cTitle":"Contato",
     "cClient":"Dados do cliente",
-    "cContact":"Contato",
+    "cName":"Nome",
+    "cLastName":"Sobrenome",
     "cOrigin":"Cidade de Origen",
     "cDestiny":"Cidade de Destino",
     "cPetData":"Datos de la mascota",
@@ -54,5 +59,26 @@
     "cComments": "Comentários:",
     "cAttachedImage":"Anexe uma foto do seu animal de estimação:",
     "cUploadBtn":"Anexar",
-    "cSendBtn": "Enviar"
+    "cSendBtn": "Enviar",
+
+    "cNameError":"*Por favor, insira um nome válido",
+    "cLastNameError":"*Por favor, insira um sobrenome válido",
+    "cOriginError":"*Por favor, insira uma cidade de origem válida",
+    "cDestinyError":"*Por favor, insira uma cidade de destino válida",
+    "cEmailError":"*Por favor, insira um endereço de e-mail válido",
+    "cTelError":"*Por favor, insira um número de telefone válido",
+  
+    "cPetNameError":"*Por favor, insira o nome do seu animal de estimação",
+    "cColorError":"*Por favor, insira a cor do seu animal de estimação",
+    "cSpeciesError":"Especie",
+    "cBreedError":"*Por favor, insira a raça do seu animal de estimação",
+    "cWeightError":"*Por favor, insira o peso do seu animal de estimação",
+    "cBirthError":"*Por favor, insira a data de nascimento do seu animal de estimação",
+  
+    "cLengthError":"*Por favor, insira o comprimento do seu animal de estimação",
+    "cWidthError":"*Por favor, insira a largura do seu animal de estimação",
+    "cHeightError":"*Por favor, insira a altura do seu animal de estimação",
+    "cElbowError":"*Por favor, insira a altura do cotovelo do seu animal de estimação",  
+
+    "cAlert":"Obrigado! Entraremos em contato em breve"
   }

@@ -27,11 +27,17 @@
   "tCard2Text":"A + 1⁄2 B = Length. C x 2 = Width. D = Height. Flat-nosed breeds require a 10% larger kennel.",
 
   "aTitle":"About Us",
-  "aText":"Animates Travel” is a company dedicated to the international transportation and relocation of pets, providing an excellent service from the beginning of each process, so that each person feels full trust and confidence when shipping their pets to their next destination. Our processes are not only export but also import or receipt of pets from different parts of the world. In both types of processes, we count on the collaboration of IPATA agents (International Pet and Animal Transportation Association), thus complying with all the requirements and standards of international and national authorities and airlines, among others.",
+  "aText":"Animates Travel” is a family company dedicated to the international transportation and relocation of pets, providing an excellent service from the beginning of each process, so that each person feels full trust and confidence when shipping their pets to their next destination. Our processes are not only export but also import or receipt of pets from different parts of the world. In both types of processes, we count on the collaboration of IPATA agents (International Pet and Animal Transportation Association), thus complying with all the requirements and standards of international and national authorities and airlines, among others.",
+  "aDOposition": "Founding Partner",
+  "aVPposition": "Partner / Business Department",
+  "aMEMposition": "Veterinary Doctor - Oncologist - M.P. Pcia. Bs.As. No. 14105 - M.N. No. 7544",
+  "aLSposition": "Veterinary Doctor M.P. Pcia. Bs.As. No. 13518 - M.N. No. 8312",
+
 
   "cTitle":"Contact",
   "cClient":"Customer",
-  "cContact":"Contact",
+  "cName":"Name",
+  "cLastName":"Last Name",
   "cOrigin":"Home city",
   "cPetData":"Pet Data",
   "cDestiny":"Destination city",
@@ -54,6 +60,30 @@
   "cComments":"Comments:",
   "cAttachedImage":"Attach a photo of your pet:",
   "cUploadBtn":"Attach",
-  "cSendBtn":"Send"
+  "cSendBtn":"Send",
+
+  "cNameError":"*Please enter a valid name",
+  "cLastNameError":"*Please enter a valid last name",
+  "cOriginError":"*Please enter a valid city of origin",
+  "cDestinyError":"*Please enter a valid destination city",
+  "cEmailError":"*Please enter a valid email address",
+  "cTelError":"*Please enter a valid phone number",
+  
+  "cPetNameError":"*Please enter your pet's name",
+  "cColorError":"*Please enter your pet's color",
+  "cSpeciesError":"*Please enter your pet's species",
+  "cBreedError":"*Please enter your pet's breed",
+  "cWeightError":"*Please enter your pet's weight",
+  "cBirthError":"*Please enter your pet's date of birth",
+  
+  "cLengthError":"*Please enter your pet's length",
+  "cWidthError":"*Please enter your pet's width",
+  "cHeightError":"*Please enter your pet's height",
+  "cElbowError":"*Please enter your pet's elbow height",
+  
+  "cAlert":"Thank you! We will get in touch soon"
 }
+
+
+
 
