@@ -98,6 +98,9 @@ const Contact = () => {
     console.log(errors)
     return (
         <div className='contact__Main-Container' id='contact'>
+            <div className='contact__Title-Container'>
+                <Title text={t('cTitle')} color={"#F8FBFB"} />
+            </div>
             <div className='container'>
                 <div className='row flex-column-reverse flex-xl-row'>
                     <div className='col-lg-7 col-sm-12 contact__Form-Container'>
@@ -434,7 +437,7 @@ const Contact = () => {
                     </form>
                 </div>                
                 <div className='col-lg-5 col-sm-12 contact__RightColumn'>
-                    <Title text={t('cTitle')} />                    
+                    {/* <Title text={t('cTitle')} /> */}
                 </div>
 
             </div>

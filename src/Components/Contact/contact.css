@@ -4,7 +4,7 @@
     background-size: cover;    
     width: 100%;
     height: auto;    
-    padding-top: 30px;
+    padding: 50px;
 }
 .contact__RightColumn{
  background-image: url(../../assets/contact/doggy.jpg); 
@@ -18,8 +18,7 @@
 
 /* FORM HANDLES */
 
-.contact__Form-Container{
-    margin-top: 70px;
+.contact__Form-Container{    
     padding: 50px;
 }
 .contact__Form-Title{

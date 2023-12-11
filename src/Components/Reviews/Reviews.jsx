@@ -13,7 +13,7 @@ const Reviews = () => {
             <div className='reviews__Title-Container'>
                 <Title 
                 text={"¿Qué dicen nuestros clientes?"} 
-                color={"#7C583B"}
+                color={"#F8FBFB"}
                 />    
             </div>
             <div className='reviews__Card-Container'>
