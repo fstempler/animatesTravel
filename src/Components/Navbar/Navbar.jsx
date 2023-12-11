@@ -1,6 +1,7 @@
 import './navbar.css';
 import Logo from '../../assets/logo/logoRoundSM.png'
 import { HashLink as Link } from 'react-router-hash-link';
+// import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
@@ -27,7 +28,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li className="nav-item">
-                             <Link className="nav-link" aria-current="page" to="#services">{t('services')}</Link>
+                             <Link className="nav-link" aria-current="page" to="#services">{t('services')} </Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="#tips">{t('tips')}</Link>

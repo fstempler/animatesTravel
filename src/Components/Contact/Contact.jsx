@@ -432,9 +432,9 @@ const Contact = () => {
   
                         <button type="submit" className="btn contact__Form-Btn" disabled={isSubmitting} >{t('cSendBtn')}</button>
                     </form>
-                </div>
+                </div>                
                 <div className='col-lg-5 col-sm-12 contact__RightColumn'>
-                    <Title text={t('cTitle')} />
+                    <Title text={t('cTitle')} />                    
                 </div>
 
             </div>
