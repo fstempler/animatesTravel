@@ -1,0 +1,21 @@
+.certification__Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+.certification__Image{        
+    width: 100px;
+    height: auto;
+}
+.certification__Text-Container{
+    width: 100px;
+}
+.certification__Text{
+    text-align: center;
+    color: #7C583B;
+    font-size: 0.8rem;
+}

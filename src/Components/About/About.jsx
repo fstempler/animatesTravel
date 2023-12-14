@@ -1,11 +1,16 @@
 import Title from '../Title/Title'
 import dogCat from '../../assets/about/dogCat.jpg'
-import StaffCard from './components/StaffCard'
 import daniel from '../../assets/about/danielOtano.jpg'
 import luciano from '../../assets/about/lucianoSampietro.jpg'
 import maminska from '../../assets/about/maminska.jpg'
 import veronica from '../../assets/about/veronicaPerez.jpg'
 import josefina from '../../assets/about/Josefina.jpg'
+import ipata from '../../assets/about/ipata.png'
+import iata from '../../assets/about/iata.png'
+
+import StaffCard from './components/StaffCard'
+import CertificationCard from './components/Certification'
+
 import { useTranslation } from 'react-i18next'
 
 
@@ -24,6 +29,19 @@ const About = () => {
                         <p className='about__Text'>
                             {t("aText")}
                         </p>                    
+                    </div>
+                    <div className='about__Certification-Container container'>
+                        <div className='row'>
+                            <CertificationCard 
+                            imageUrl={ipata}
+                            name={'BOAS Certifies'}
+                            />
+
+                            <CertificationCard 
+                            imageUrl={iata}
+                            name={'LAR Certified'}
+                            />
+                        </div>
                     </div>
                     <div className='about__Staff-Container'>
                         <div className='staff__Title-Container'>
