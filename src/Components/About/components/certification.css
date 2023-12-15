@@ -16,6 +16,8 @@
 }
 .certification__Text{
     text-align: center;
+    font-weight: 900;
     color: #7C583B;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-top: 5px;
 }
