@@ -1,8 +1,11 @@
 import './navbar.css';
 import Logo from '../../assets/logo/logoRoundSM.png'
+import ipata from '../../assets/about/ipata.png'
+
 import { HashLink as Link } from 'react-router-hash-link';
 // import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+
 
 
 const Navbar = () => {
@@ -21,7 +24,11 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar__Container">
             <div className="container-fluid">
-                <a className="navbar-brand navbar__Logo-Container" href="/"><img src={Logo} className='navbar__Logo'/></a>
+                <div className='navbar__Logos-Container'>
+                    <a className="navbar-brand navbar__Logo-Container" href="/"><img src={Logo} className='navbar__Logo'/></a>
+                    <img src={ipata} className='navbar__Ipata'/>
+                </div>
+                
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

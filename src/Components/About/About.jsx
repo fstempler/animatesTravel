@@ -34,7 +34,8 @@ const About = () => {
                         <div className='row'>
                             <CertificationCard 
                             imageUrl={ipata}
-                            name={'BOAS Certifies'}
+                            name={'Member'}
+                            text={'BOAS Certified'}
                             />
 
                             <CertificationCard 

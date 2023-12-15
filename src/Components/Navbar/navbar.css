@@ -8,12 +8,20 @@
     background-color: #7C583B;
 }
 .navbar__Logo{
-    width: 10%;
+    width: 15%;
     height: auto;    
+}
+.navbar__Ipata{
+    width: 9%;
+    height: auto;
+}
+
+.navbar__Logos-Container{
+    width: 600px;
 }
 
 .navbar__Logo-Container{
-    width: 50%;
+    width: 80px;
 }
 .nav-link{
     color: #F8FBFB;
@@ -24,8 +32,18 @@
 }
 
 @media (max-width: 576px) {
+    .navbar__Logos-Container{
+        width: 200px;
+    }
     .navbar__Logo{
-        width: 30%;
+        width: 20%;
         height: auto;    
+    }
+    .navbar__Ipata{
+        width: 10%;
+        height: auto;
+    }
+    .navbar__Logo-Container{
+        width: 30px;
     }
 }
