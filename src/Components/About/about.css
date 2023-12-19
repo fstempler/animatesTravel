@@ -28,6 +28,10 @@
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.about__Ig-container{
+    margin-top: 30px;    
+    
+}
 
 @media (max-width: 576px) {
     .about__Right-Column{

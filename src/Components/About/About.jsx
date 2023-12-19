@@ -12,6 +12,8 @@ import StaffCard from './components/StaffCard'
 import CertificationCard from './components/Certification'
 
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet'
+
 
 
 import './about.css'
@@ -22,6 +24,9 @@ const About = () => {
 
     return (
         <div className='about__Main-Container' id='about'>
+            <Helmet>
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            </Helmet>
             <div className='row'>
                 <div className='col-lg-8 col-md-12'>                    
                     <Title text={t("aTitle")} color={"#7C583B"} />
@@ -65,6 +70,9 @@ const About = () => {
                             name={"Josefina"} 
                             title={"CEO Animates Travel"}/>
                         </div>
+                    </div>
+                    <div className='about__Ig-container'>
+                        <div className="elfsight-app-755b2351-2258-49e5-a423-1c1670d6b678" data-elfsight-app-lazy></div>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-0 about__Right-Column'>
