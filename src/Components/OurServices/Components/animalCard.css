@@ -13,7 +13,12 @@
     border-width: 2px;
     border-color: #F8FBFB;
 }
+.animalCard__Img:hover{
+    filter: grayscale(100%);    
+    border-color: #7C583B;
+}
 .animalCard__Title{
     color: #F8FBFB;
     font-family: 'Lilita One', sans-serif;
 }
+

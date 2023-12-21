@@ -1,8 +1,17 @@
 import './reviewCard.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
-const ReviewCard = ({ imageUrl, title, text }) => {
+import { useEffect } from 'react';
+
+const ReviewCard = ({ imageUrl, title, text, animation }) => {
+
+    useEffect(() => {
+        Aos.init({duration: 1500})
+    })
+
     return (
-        <div className='reviewCard__Container'>
+        <div className='reviewCard__Container' data-aos={animation}>
             <img src={imageUrl} className='reviewCard__Img' />
             <div className='reviewCard__Title-Container'>
                 <h4 className='reviewCard__Title'>{title}</h4>

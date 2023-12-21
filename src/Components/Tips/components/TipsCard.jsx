@@ -1,8 +1,17 @@
 import './tipsCard.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
-const TipsCard = ({imageUrl, title, text}) => {
+import { useEffect } from 'react';
+
+const TipsCard = ({imageUrl, title, text, animation}) => {
+
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    })
+
     return (
-        <div className='tipsCard__Container'>
+        <div className='tipsCard__Container' data-aos={animation}>
             <div className='tipsCard__Img-Container'>
                 <img src={imageUrl} className='tipsCard__Img' />
             </div>

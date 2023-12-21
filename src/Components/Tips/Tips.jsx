@@ -30,12 +30,14 @@ const Tips = () => {
                         <TipsCard imageUrl={animal} 
                         title={t('tCard1Title')}
                         text={t('tCard1Text')}
+                        animation={'fade-right'}
                         />
                     </div>
                     <div className='col-sm-8 col-md-4 col-xl-3'>
                     <TipsCard imageUrl={carrier} 
                         title={t('tCard2Title')}
                         text={t('tCard2Text')}
+                        animation={'fade-left'}
                         />
                     </div>
                 </div>

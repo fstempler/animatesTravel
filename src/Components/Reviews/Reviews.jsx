@@ -23,6 +23,7 @@ const Reviews = () => {
                         imageUrl={profile1}
                         title={"Juan Ignacio Pirrota"}
                         text={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat totam dignissimos hic, harum dolorum consequatur corrupti doloribus alias necessitatibus tempore fugit officiis quos sunt numquam in magni minima quisquam!"}                        
+                        animation={'flip-up'}
                         />
                     </div>
                     <div className='col-sm-4 col-lg-3 col-xl-3 col-xxl-3 reviews__Card-Item'>
@@ -30,6 +31,7 @@ const Reviews = () => {
                         imageUrl={profile2}
                         title={"María y Paz"}
                         text={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat totam dignissimos hic, harum dolorum consequatur corrupti doloribus alias necessitatibus tempore fugit officiis quos sunt numquam in magni minima quisquam!"}                        
+                        animation={'flip-up'}
                         />
                     </div>
                     <div className='col-sm-4 col-lg-3 col-xl-3 col-xxl-3 reviews__Card-Item'>
@@ -37,6 +39,7 @@ const Reviews = () => {
                         imageUrl={profile3}
                         title={"Sofía Andressi"}
                         text={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat totam dignissimos hic, harum dolorum consequatur corrupti doloribus alias necessitatibus tempore fugit officiis quos sunt numquam in magni minima quisquam!"}                        
+                        animation={'flip-up'}
                         />
                     </div>
                 </div>
