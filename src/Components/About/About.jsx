@@ -24,6 +24,9 @@ const About = () => {
 
     return (
         <div className='about__Main-Container' id='about'>
+
+            {/* Use Helmet to insert the script then you call the html code that elfsight gives you in the section you want the IG feed to render */}
+
             <Helmet>
                 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             </Helmet>
@@ -36,6 +39,9 @@ const About = () => {
                         </p>                    
                     </div>
                     <div className='about__Certification-Container container'>
+
+                        {/* Certification cards have image, title and text to add.  */}
+
                         <div className='row'>
                             <CertificationCard 
                             imageUrl={ipata}
@@ -49,6 +55,7 @@ const About = () => {
                             />
                         </div>
                     </div>
+                    {/* Stadd section */}
                     <div className='about__Staff-Container'>
                         <div className='staff__Title-Container'>
                             <h2 className='staff__Title'>Staff</h2>

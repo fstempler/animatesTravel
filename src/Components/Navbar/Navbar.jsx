@@ -3,7 +3,7 @@ import Logo from '../../assets/logo/logoRoundSM.png'
 import ipata from '../../assets/about/ipata.png'
 
 import { HashLink as Link } from 'react-router-hash-link';
-// import { Link } from 'react-router-dom';
+
 import { useTranslation } from 'react-i18next';
 
 
