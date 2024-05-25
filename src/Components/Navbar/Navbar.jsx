@@ -23,17 +23,19 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-lg navbar__Container">
-            <div className="container-fluid">
+            <div className="container">
                 <div className='navbar__Logos-Container'>
-                    <a className="navbar-brand navbar__Logo-Container" href="/"><img src={Logo} className='navbar__Logo'/></a>
-                    <img src={ipata} className='navbar__Ipata'/>
+                    <a className="navbar-brand navbar__Logo-Container" href="/">
+                        <img src={Logo} className='navbar__Logo'/>
+                    </a>
+                        <img src={ipata} className='navbar__Ipata'/>
                 </div>
                 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                              <Link className="nav-link" aria-current="page" to="#services">{t('services')} </Link>
                         </li>

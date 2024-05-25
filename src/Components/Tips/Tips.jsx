@@ -15,7 +15,7 @@ const Tips = () => {
             <Title text={"Tips"} color={"#AB7A63"} />
 
             <div className='tips__Subtitle-Container'>
-                <h3 className='tips__Subtitle'>
+                <h3 className=''>
                     {t('tSubtitle')}
                 </h3>
             </div>

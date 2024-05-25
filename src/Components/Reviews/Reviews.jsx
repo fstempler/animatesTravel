@@ -9,6 +9,13 @@ import profile3 from '../../assets/reviews/Profile3.jpg';
 import review11 from '../../assets/reviews/Review 1-1.png';
 import review12 from '../../assets/reviews/Review 1-2.png';
 import review13 from '../../assets/reviews/Review 1-3.png';
+//Review2
+import review21 from '../../assets/reviews/Review 2-1.png';
+import review22 from '../../assets/reviews/Review 2-2.png';
+import review23 from '../../assets/reviews/Review 2-3.png';
+//Review3
+import review31 from '../../assets/reviews/Review 3-1.png';
+import review32 from '../../assets/reviews/Review 3-2.png';
 
 import './reviews.css'
 
@@ -25,6 +32,7 @@ const Reviews = () => {
                 <div className='row rowHandle'>
                     <div className='col-sm-4 col-lg-3 col-xl-3 col-xxl-3 reviews__Card-Item'>
                         <ReviewCard 
+                        id="1"
                         imageUrl1={review11}
                         imageUrl2={review12}
                         imageUrl3={review13}
@@ -35,17 +43,23 @@ const Reviews = () => {
                     </div>
                     <div className='col-sm-4 col-lg-3 col-xl-3 col-xxl-3 reviews__Card-Item'>
                         <ReviewCard 
-                        imageUrl1={profile2}
-                        title={"María y Paz"}
-                        text={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat totam dignissimos hic, harum dolorum consequatur corrupti doloribus alias necessitatibus tempore fugit officiis quos sunt numquam in magni minima quisquam!"}                        
+                        id="2"
+                        imageUrl1={review21}
+                        imageUrl2={review22}
+                        imageUrl3={review23}
+                        title={"Julia P."}
+                        text={`"Mi experiencia ha sido  excelente desde el primer contacto hasta el viaje de Diana mi pug desde Argentina hasta Sudáfrica.  Todo salió tal como se planeó y mi mascota llegó perfecta. Super recomiendo el servicio de Animates Travels y la eficiencia y cuidado de María Verónica."`}                        
                         animation={'flip-up'}
                         />
                     </div>
                     <div className='col-sm-4 col-lg-3 col-xl-3 col-xxl-3 reviews__Card-Item'>
-                        <ReviewCard 
-                        imageUrl1={profile3}
-                        title={"Sofía Andressi"}
-                        text={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat totam dignissimos hic, harum dolorum consequatur corrupti doloribus alias necessitatibus tempore fugit officiis quos sunt numquam in magni minima quisquam!"}                        
+                    <ReviewCard 
+                        id="3"
+                        imageUrl1={review31}
+                        imageUrl2={review32}                        
+                        title={"Olivia y Priscilla"}
+                        text={`"Hola!!! Somos Olivia (mamá de Felix, de 2 años) y Priscilla (mamá de Charlie y khya, 13 y 6 años) Nos instalamos en abril de 2023 en Nueva Zelanda donde Charlie, Khya y Felix disfrutan de sol y sus juegos
+                        No tenemos mas que palabras de agradecimiento para con ellos porque siempre estuvieron presentes en todo el proceso, sacandonos dudas y miedos"`}                        
                         animation={'flip-up'}
                         />
                     </div>

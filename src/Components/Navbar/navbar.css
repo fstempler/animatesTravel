@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000;    
 }
 .navbar{
     background-color: #7C583B;
@@ -32,18 +32,22 @@
 }
 
 @media (max-width: 576px) {
+    .navbar__Container{    
+        width: 100vw;
+    }
     .navbar__Logos-Container{
-        width: 200px;
+        display: flex;
+        width: 150px;
     }
     .navbar__Logo{
-        width: 20%;
+        width: 100%;
         height: auto;    
     }
     .navbar__Ipata{
-        width: 10%;
+        width: 20%;
         height: auto;
     }
     .navbar__Logo-Container{
-        width: 30px;
+        width: 50px;
     }
 }

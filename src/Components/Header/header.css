@@ -1,3 +1,6 @@
 .header__Carousel-Container{    
     margin-top: 60px;
 }
+.header__Carousel-Container{
+    width: 100%;
+}

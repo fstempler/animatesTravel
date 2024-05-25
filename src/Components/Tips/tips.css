@@ -8,7 +8,10 @@
 }
 .tips__Subtitle-Container{
     color: #7C583B;
-    margin: 20px 0;
+    margin: 20px 0;     
+}
+.tips__Subtitle{
+    margin: 0;
 }
 .tips__Text-Container{
     color: #7C583B;
