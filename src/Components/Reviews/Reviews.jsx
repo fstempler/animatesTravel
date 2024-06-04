@@ -47,8 +47,8 @@ const Reviews = () => {
                         imageUrl1={review21}
                         imageUrl2={review22}
                         imageUrl3={review23}
-                        title={"Julia P."}
-                        text={`"Mi experiencia ha sido  excelente desde el primer contacto hasta el viaje de Diana mi pug desde Argentina hasta Sudáfrica.  Todo salió tal como se planeó y mi mascota llegó perfecta. Super recomiendo el servicio de Animates Travels y la eficiencia y cuidado de María Verónica."`}                        
+                        title={"Julián P."}
+                        text={`"Mi experiencia ha sido excelente desde el primer contacto hasta el viaje de Diana, mi pug, desde Argentina hasta Sudáfrica. Todo salió tal como se planeó y mi mascota llegó en perfectas condiciones. Recomiendo ampliamente el servicio de Animates Travels y la eficiencia y cuidado de María Verónica."`}                        
                         animation={'flip-up'}
                         />
                     </div>
@@ -57,8 +57,9 @@ const Reviews = () => {
                         id="3"
                         imageUrl1={review31}
                         imageUrl2={review32}                        
+                        imageUrl3={review32}
                         title={"Olivia y Priscilla"}
-                        text={`"Hola!!! Somos Olivia (mamá de Felix, de 2 años) y Priscilla (mamá de Charlie y khya, 13 y 6 años) Nos instalamos en abril de 2023 en Nueva Zelanda donde Charlie, Khya y Felix disfrutan de sol y sus juegos
+                        text={`"Hola!!! Somos Olivia (mamá de Felix, de 2 años) y Priscilla (mamá de Charlie y Khya, 13 y 6 años) Nos instalamos en abril de 2023 en Nueva Zelanda donde Charlie, Khya y Felix disfrutan de sol y sus juegos
                         No tenemos mas que palabras de agradecimiento para con ellos porque siempre estuvieron presentes en todo el proceso, sacandonos dudas y miedos"`}                        
                         animation={'flip-up'}
                         />
