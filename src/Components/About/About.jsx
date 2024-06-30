@@ -55,7 +55,7 @@ const About = () => {
                             />
                         </div>
                     </div>
-                    {/* Stadd section */}
+                    {/* Staff section */}
                     <div className='about__Staff-Container'>
                         <div className='staff__Title-Container'>
                             <h2 className='staff__Title'>Staff</h2>

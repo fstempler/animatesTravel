@@ -1,5 +1,5 @@
 .reviewCard__Container {
-    width: 100%;
+    width: 75%;
     height: 100%;
     color: #F8FBFB;
     border: 1px solid;
@@ -15,7 +15,7 @@
 .reviewCard__Img {
     border-radius: 50%;
     border: 1px solid #F8FBFB;
-    width: 80%;
+    width: 50%;
     height: auto;
 }
 
