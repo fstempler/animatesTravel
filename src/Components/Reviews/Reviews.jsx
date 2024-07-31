@@ -74,7 +74,7 @@ const Reviews = () => {
                         imageUrl1={review41}
                         imageUrl2={review41}                        
                         imageUrl3={review41}
-                        title={"Olivia y Priscilla"}
+                        title={"V. L."}
                         text={t("cReview1Text4")}                        
                         animation={'flip-up'}
                         />

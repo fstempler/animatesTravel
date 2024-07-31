@@ -1,0 +1,26 @@
+AnimatesTravel
+
+Acceso al panel de control de LatinCloud:
+
+Ingreso: https://panel.elserver.com/
+Usuario: dotano1105@gmail.com
+Contraseña: Josefina2020
+
+
+LatinCloud no cuenta con un panel propio para poder manejar el FTP es por esto que utiliza FileZilla para el manejo de archivos. 
+
+Para configurar un nuevo usuario FTP y conectar a FilesZilla seguir las siguientes instrucciones: 
+https://la.latincloud.com/013417-C%C3%B3mo-crear-un-usuario-FTP-en-Cloud-Panel-y-conectar-por-FileZilla?r=1
+
+Credenciales actuales en FileZilla 
+host: ftp.animatestravel.com
+user: webmaster.animatestravel.com
+pass: @AnimatesTravel2233
+
+Actualizaciones del sitio: 
+Seguir las siguientes instrucciones:
+https://la.latincloud.com/920362-C%C3%B3mo-subir-mi-sitio-web-al-servidor-de-forma-segura
+
+El sitio se encuentra alojado en la carpeta "htdocs". 
+
+La carpeta "htdocs(viejo)" corresponde a la copia del sitio anterior y la instalación de WordPress hecha. 
